@@ -1,0 +1,76 @@
+package pl.edu.uwm.wmii.marcelmrozowski.laboratorium01;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n;
+	    System.out.println("zadanie 1a: ");
+        n=sc.nextInt();
+	    System.out.println(Zadanie1.a(n));
+	    System.out.println("zadanie 1b: ");
+        n=sc.nextInt();
+	    System.out.println(Zadanie1.b(n));
+	    System.out.println("zadanie 1c: ");
+        n=sc.nextInt();
+	    System.out.println(Zadanie1.c(n));
+        System.out.println("zadanie 1d: ");
+        n=sc.nextInt();
+        System.out.println(Zadanie1.d(n));
+        System.out.println("zadanie 1e: ");
+        n=sc.nextInt();
+        System.out.println(Zadanie1.e(n));
+        System.out.println("zadanie 1f: ");
+        n=sc.nextInt();
+        System.out.println(Zadanie1.f(n));
+        System.out.println("zadanie 1g: ");
+        n=sc.nextInt();
+        Zadanie1.g(n);
+        System.out.println("zadanie 1h: ");
+        n=sc.nextInt();
+        System.out.println(Zadanie1.h(n));
+        System.out.println("zadanie 1i: ");
+        n=sc.nextInt();
+        System.out.println(Zadanie1.i(n));
+        System.out.println("zadanie 1-2: ");
+        n=sc.nextInt();
+        Zadanie1.dwa(n);
+        System.out.println("zadanie 2a: ");
+        n=sc.nextInt();
+        Zadanie2.a(n);
+        System.out.println("zadanie 2b: ");
+        n=sc.nextInt();
+        Zadanie2.b(n);
+        System.out.println("zadanie 2c: ");
+        n=sc.nextInt();
+        Zadanie2.c(n);
+        System.out.println("zadanie 2d: ");
+        n=sc.nextInt();
+        Zadanie2.d(n);
+        System.out.println("zadanie 2e: ");
+        n=sc.nextInt();
+        Zadanie2.e(n);
+        System.out.println("zadanie 2f: ");
+        n=sc.nextInt();
+        Zadanie2.f(n);
+        System.out.println("zadanie 2g: ");
+        n=sc.nextInt();
+        Zadanie2.g(n);
+        System.out.println("zadanie 2h: ");
+        n=sc.nextInt();
+        Zadanie2.h(n);
+        System.out.println("zadanie 2-2: ");
+        n=sc.nextInt();
+        Zadanie2.dwa(n);
+        System.out.println("zadanie 2-3: ");
+        n=sc.nextInt();
+        Zadanie2.trzy(n);
+        System.out.println("zadanie 2-4: ");
+        n=sc.nextInt();
+        Zadanie2.cztery(n);
+        System.out.println("zadanie 2-5: ");
+        n=sc.nextInt();
+        System.out.println(Zadanie2.piec(n));
+    }
+}
